@@ -1,6 +1,6 @@
 package ru.gontarenko.banking.dao;
 
-import ru.gontarenko.banking.entities.Card;
+import ru.gontarenko.banking.entity.Card;
 
 public interface CardDAO {
     Card findByCardNumber(String cardNumber);

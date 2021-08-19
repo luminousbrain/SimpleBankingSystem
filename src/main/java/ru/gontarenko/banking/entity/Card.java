@@ -1,4 +1,4 @@
-package ru.gontarenko.banking.entities;
+package ru.gontarenko.banking.entity;
 
 public class Card {
     private int id;

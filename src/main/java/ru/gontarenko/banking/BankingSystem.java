@@ -2,7 +2,7 @@ package ru.gontarenko.banking;
 
 import ru.gontarenko.banking.dao.CardDAO;
 import ru.gontarenko.banking.dao.CardDAOImpl;
-import ru.gontarenko.banking.entities.Card;
+import ru.gontarenko.banking.entity.Card;
 
 import java.util.Random;
 

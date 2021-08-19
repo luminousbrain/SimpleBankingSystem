@@ -1,6 +1,6 @@
 package ru.gontarenko.banking;
 
-import ru.gontarenko.banking.entities.Card;
+import ru.gontarenko.banking.entity.Card;
 
 import java.util.Scanner;
 
@@ -58,7 +58,6 @@ public class BankApp {
             System.out.println("4. Close account");
             System.out.println("5. Log out");
             System.out.println("0. Exit");
-
             switch (scanner.nextLine()) {
                 case "1":
                     System.out.printf("\nBalance: %d\n", card.getBalance());
